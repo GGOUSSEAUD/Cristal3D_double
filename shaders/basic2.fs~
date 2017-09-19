@@ -1,0 +1,7 @@
+#version 330
+in  vec4 ColorShad2;
+out vec4 fragColor2;
+
+void main(void) {
+    fragColor2 = ColorShad2;
+}

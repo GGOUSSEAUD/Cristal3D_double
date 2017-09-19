@@ -1,0 +1,13 @@
+#version 330
+in vec4 vsoColor;
+in vec4 vsoColor2;
+in vec4 vsoPositionSec;
+out vec4 fragColor;
+out vec4 vsoPosition2;
+out vec4 ColorShad2;
+
+void main(void) {
+  fragColor = vsoColor;
+  vsoPosition2 = vsoPositionSec;
+  ColorShad2 = vsoColor2;
+}
